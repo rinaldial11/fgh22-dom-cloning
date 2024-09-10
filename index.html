@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.css">
+    <title>Todo App</title>
+</head>
+<body>
+    <h1>Todo App</h1>
+    <div class="background">
+        <button id="merah">Background Merah</button>
+        <button id="biru">Background Biru</button>
+        <button id="putih">Background Putih</button>
+    </div>
+    <div class="background">
+        <button id="google">Buka Google</button>
+        <button id="youtube">Buka Youtube</button>
+    </div>
+    <form class="background" id="dataForm">
+        <input type="text" id="todoInput" placeholder="Enter Todo...">
+        <input type="date" id="dateInput">
+        <button type="submit">Submit</button>
+    </form>
+    <h3>Todo List</h3>
+    <table border="1" id="dataTable">
+        <thead>    
+            <tr>
+                <th>ID</th>
+                <th>Todo</th>
+                <th>Date</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
